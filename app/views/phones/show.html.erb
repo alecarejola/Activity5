@@ -1,0 +1,27 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Brand</th>
+        <th>Year Released</th>
+        <th>Camera</th>
+        <th>Mega Pixel</th>
+        <th>Internal Storage(in gb)</th>
+        <th>Number of Sim Slot</th>
+        <th>Size of Screen(Inch)</th>
+        <th>Operating System</th>
+        <th>Number of Stocks Left</th>
+    </tr>
+    <tr>
+        <td> <%= @phone.name %> </td>
+        <td> <%= @phone.brand %> </td>
+        <td> <%= @phone.year_released %> </td>
+        <td> <%= @phone.camera %> </td>
+        <td> <%= @phone.mpixels %> </td>
+        <td> <%= @phone.internal_storage %> </td>
+        <td> <%= @phone.sim_slot %> </td>
+        <td> <%= @phone.size %> </td>
+        <td> <%= @phone.operating_system %> </td>
+        <td> <%= @phone.stock %> </td>
+    </tr>
+</table>
+<a href="/phones/">Back to Home Page</a>

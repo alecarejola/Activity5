@@ -1,0 +1,23 @@
+<%= form_for(@phone) do |p| %>
+    <%= p.label :name %>
+    <%= p.text_field :name %><br>
+    <%= p.label :brand %>
+    <%= p.text_field :brand %><br>
+    <%= p.label :year_released %>
+    <%= p.text_field :year_released %><br>
+    <%= p.label :camera %>
+    <%= p.text_field :camera %><br>
+    <%= p.label :mpixels %>
+    <%= p.text_field :mpixels %><br>
+    <%= p.label :internal_storage %>
+    <%= p.text_field :internal_storage %><br>
+    <%= p.label :sim_slot %>
+    <%= p.text_field :sim_slot %><br>
+    <%= p.label :size %>
+    <%= p.text_field :size %><br>
+    <%= p.label :operating_system %>
+    <%= p.text_field :operating_system %><br>
+    <%= p.label :stock %>
+    <%= p.text_field :stock %><br>
+    <%= p.submit %>
+<% end %>
